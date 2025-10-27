@@ -1,70 +1,115 @@
-#include <stdio.h>
+#include "common.h"
+#include <ncurses.h>
 
-// ANSI color macros
-#define RESET           "\x1b[0m"
-#define BOLD            "\x1b[1m"
-#define WHITE           "\x1b[37m"
-#define BG_MAGENTA      "\x1b[45m"
-#define BRIGHT_MAGENTA  "\x1b[95m"
-#define BRIGHT_WHITE    "\x1b[97m"
-#define BRIGHT_CYAN     "\x1b[96m"
+ControlSharedMemory *control_shm;
+volatile sig_atomic_t running = 1;
+int current_room = 0;
 
-// Device structure (example)
-typedef struct {
-    int id;
-    char sensor_type[32];
-    char value[16];
-    char actuator_type[32];
-    char power[16];
-    char status[64];
-} Device;
-
-// Sample data
-Device devices[] = {
-    {1, "Temperature Sensor", "23.5°C", "Fan", "ON", "Normal"},
-    {2, "Humidity Sensor", "45%", "Dehumidifier", "OFF", "Idle"},
-    {3, "Motion Sensor", "Active", "Alarm", "ON", "Triggered"},
-};
-
-int num_devices = sizeof(devices) / sizeof(devices[0]);
-
-// Helper function to print a dashboard row
-void print_dashboard_row(int id, const char* sensor_type, const char* value,
-                         const char* actuator_type, const char* power, const char* status) {
-    printf("%s│ %2d │ %-20s │ %-12s │ %-18s │ %-10s │ %-40s │%s\n",
-           BRIGHT_MAGENTA, id, sensor_type, value, actuator_type, power, status, RESET);
-}
-
-// Optional separator line
-void print_separator() {
-    printf("%s%s%s┼────┼──────────────────────┼────────────┼────────────────────┼────────────┼──────────────────────────────────────────┼%s\n",
-           BOLD, BG_MAGENTA, WHITE, RESET);
-}
-
-// Main dashboard display function
-void display_dashboard() {
-    // Header
-    printf("%s%s%s│ ID │ SENSOR TYPE           │ VALUE        │ ACTUATOR TYPE      │ POWER      │ STATUS                                   │%s\n",
-           BOLD, BG_MAGENTA, WHITE, RESET);
-    print_separator();
-
-    // Rows
-    for (int i = 0; i < num_devices; i++) {
-        print_dashboard_row(devices[i].id,
-                            devices[i].sensor_type,
-                            devices[i].value,
-                            devices[i].actuator_type,
-                            devices[i].power,
-                            devices[i].status);
+void signal_handler(int signum) {
+    if (signum == SIGINT) {
+        running = 0;
     }
-
-    // Footer spacing
-    printf("\n");
 }
 
-// Entry point
+void init_ncurses() {
+    initscr();
+    start_color();
+    cbreak();
+    noecho();
+    curs_set(0);
+    nodelay(stdscr, TRUE);
+    keypad(stdscr, TRUE);
+    
+    init_pair(1, COLOR_GREEN, COLOR_BLACK);
+    init_pair(2, COLOR_RED, COLOR_BLACK);
+    init_pair(3, COLOR_YELLOW, COLOR_BLACK);
+    init_pair(4, COLOR_CYAN, COLOR_BLACK);
+    init_pair(5, COLOR_WHITE, COLOR_BLUE);
+    init_pair(6, COLOR_BLACK, COLOR_WHITE);
+}
+
+void display_dashboard() {
+    clear();
+    
+    pthread_mutex_lock(&control_shm->mutex);
+    SensorData sensors[NUM_ROOMS][NUM_SENSORS];
+    ControlData controls[NUM_ROOMS][NUM_SENSORS];
+    int batch = control_shm->batch_count;
+    memcpy(sensors, control_shm->sensors, sizeof(sensors));
+    memcpy(controls, control_shm->controls, sizeof(controls));
+    pthread_mutex_unlock(&control_shm->mutex);
+    
+    int row = 0;
+    
+    attron(COLOR_PAIR(5) | A_BOLD);
+    mvprintw(row++, 0, " IoT SMART HOME - MULTI-ROOM DASHBOARD ");
+    attroff(COLOR_PAIR(5) | A_BOLD);
+    
+    row++;
+    mvprintw(row++, 0, "Batch: %d | Press 1 for Room 1 | Press 2 for Room 2 | Press Q to quit", batch);
+    row++;
+    
+    // Display room tabs
+    for (int r = 0; r < NUM_ROOMS; r++) {
+        if (r == current_room) {
+            attron(COLOR_PAIR(6) | A_BOLD);
+            mvprintw(row, r * 15, " ROOM %d ", r + 1);
+            attroff(COLOR_PAIR(6) | A_BOLD);
+        } else {
+            attron(COLOR_PAIR(4));
+            mvprintw(row, r * 15, " Room %d ", r + 1);
+            attroff(COLOR_PAIR(4));
+        }
+    }
+    row += 2;
+    
+    mvprintw(row++, 0, "=================================================================");
+    mvprintw(row++, 0, "%-20s %-10s %-25s %-15s", "SENSOR", "VALUE", "CONTROL ACTION", "STATUS");
+    mvprintw(row++, 0, "=================================================================");
+    
+    const char *sensor_names[] = {"Temperature", "Smoke", "Motion", "Door Lock", "Humidity", "Light"};
+    
+    for (int i = 0; i < NUM_SENSORS; i++) {
+        char value_str[32];
+        if (i == 0) sprintf(value_str, "%.1f°C", sensors[current_room][i].value);
+        else if (i == 1) sprintf(value_str, "%.0f ppm", sensors[current_room][i].value);
+        else if (i == 2) sprintf(value_str, "%s", sensors[current_room][i].value > 0 ? "YES" : "NO");
+        else if (i == 4) sprintf(value_str, "%.0f%%", sensors[current_room][i].value);
+        else if (i == 5) sprintf(value_str, "%.0f lux", sensors[current_room][i].value);
+        else sprintf(value_str, "%s", sensors[current_room][i].door_lock_id);
+        
+        int color = controls[current_room][i].alarm_status ? 2 : 1;
+        attron(COLOR_PAIR(color));
+        mvprintw(row++, 0, "%-20s %-10s %-25s %-15s",
+                 sensor_names[i], value_str,
+                 controls[current_room][i].action,
+                 controls[current_room][i].status);
+        attroff(COLOR_PAIR(color));
+    }
+    
+    refresh();
+}
+
 int main() {
-    display_dashboard();
+    signal(SIGINT, signal_handler);
+    
+    int shm_id = shmget(SHM_CONTROL_KEY, sizeof(ControlSharedMemory), 0666);
+    control_shm = (ControlSharedMemory*)shmat(shm_id, NULL, 0);
+    
+    init_ncurses();
+    
+    while(running) {
+        int ch = getch();
+        if (ch == 'q' || ch == 'Q') break;
+        if (ch == '1') current_room = 0;
+        if (ch == '2' && NUM_ROOMS > 1) current_room = 1;
+        
+        display_dashboard();
+        usleep(500000);
+    }
+    
+    endwin();
+    shmdt(control_shm);
     return 0;
 }
 
