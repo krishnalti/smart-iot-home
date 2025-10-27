@@ -4,75 +4,67 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <pthread.h>
 #include <unistd.h>
+#include <pthread.h>
+#include <time.h>
+#include <signal.h>
+#include <sys/socket.h>
 #include <sys/ipc.h>
 #include <sys/shm.h>
-#include <sys/types.h>
-#include <semaphore.h>
-#include <fcntl.h>
-#include <time.h>
 #include <arpa/inet.h>
-#include <sys/socket.h>
+#include <netinet/in.h>
 
-#define NUM_SENSORS 5
-#define SERVER_PORT 2025//from 8080->2025
-#define SERVER_IP "127.0.0.1"
-#define SHM_KEY 1234
-#define UPDATE_INTERVAL 10  // seconds
+// Configuration
+#define NUM_ROOMS 2
+#define NUM_SENSORS 6
+#define DCP_SERVER_PORT 8080
+#define WEB_SERVER_PORT 80
 
-// Named semaphore names
-#define SEM_DCP "/sem_dcp"
-#define SEM_DPCP "/sem_dpcp"
-#define SEM_UI "/sem_ui"
+#define SERVER_IP "192.168.1.138"
+#define UPDATE_INTERVAL 5
+#define SHM_SENSOR_KEY 1234
+#define SHM_CONTROL_KEY 5678
 
 typedef enum {
     TEMP_SENSOR = 0,
-   // HUMIDITY_SENSOR,
-    LIGHT_SENSOR,
-    GAS_SENSOR,
-    MOTION_SENSOR
+    SMOKE_SENSOR,
+    MOTION_SENSOR,
+    DOOR_LOCK,
+    HUMIDITY_SENSOR,
+    LIGHT_SENSOR
 } SensorType;
-
-typedef enum {
-    AC_FAN = 0,
-    //HUMIDIFIER,
-    SMART_LIGHT,
-    EXHAUST_FAN,
-    SECURITY_ALARM
-} ActuatorType;
 
 typedef struct {
     SensorType type;
-    int id;
+    int device_id;
+    int room_id;
     float value;
-    time_t timestamp;
-    char name[50];
+    char door_lock_id[32];
+    long timestamp;
 } SensorData;
 
 typedef struct {
-    ActuatorType type;
-    int id;
-    float value;
-    int alarm_status;  // 0: OFF, 1: ON
-    time_t timestamp;
-    char name[50];
-    char status[50];
-} ActuatorData;
+    int device_id;
+    int room_id;
+    char control_name[64];
+    char action[128];
+    char status[64];
+    int alarm_status;
+    long timestamp;
+} ControlData;
 
 typedef struct {
-    SensorData sensors[NUM_SENSORS];
-    ActuatorData actuators[NUM_SENSORS];
-    int initialized;
-} SharedMemory;
+    pthread_mutex_t mutex;
+    SensorData sensors[NUM_ROOMS][NUM_SENSORS];
+    int batch_count;
+} SensorSharedMemory;
 
-// Threshold values for danger detection
 typedef struct {
-    float temp_max;
-    float humidity_max;
-    float light_max;
-    float gas_max;
-    int motion_detected;
-} Thresholds;
+    pthread_mutex_t mutex;
+    SensorData sensors[NUM_ROOMS][NUM_SENSORS];
+    ControlData controls[NUM_ROOMS][NUM_SENSORS];
+    int batch_count;
+} ControlSharedMemory;
 
 #endif
+
