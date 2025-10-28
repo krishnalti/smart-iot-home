@@ -1,0 +1,705 @@
+[DPCP] Control process started
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): Humidifying - Low humidity
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): Humidifying - Low humidity
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds CLOSED - Too bright outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 60% - Normal cooling
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 60% - Normal cooling
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds CLOSED - Too bright outside
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds CLOSED - Too bright outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds CLOSED - Too bright outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 60% - Normal cooling
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 60% - Normal cooling
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 60% - Normal cooling
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds CLOSED - Too bright outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 60% - Normal cooling
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 60% - Normal cooling
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds CLOSED - Too bright outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds CLOSED - Too bright outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 60% - Normal cooling
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Humidifying - Low humidity
+[DPCP] Device 5 (Auto Blinds): Blinds CLOSED - Too bright outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 60% - Normal cooling
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 60% - Normal cooling
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds CLOSED - Too bright outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 60% - Normal cooling
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): Humidifying - Low humidity
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds CLOSED - Too bright outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 60% - Normal cooling
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Humidifying - Low humidity
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds CLOSED - Too bright outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds CLOSED - Too bright outside
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds CLOSED - Too bright outside
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds CLOSED - Too bright outside
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds CLOSED - Too bright outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 60% - Normal cooling
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Humidifying - Low humidity
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Humidifying - Low humidity
+[DPCP] Device 5 (Auto Blinds): Blinds CLOSED - Too bright outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 60% - Normal cooling
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 60% - Normal cooling
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): Humidifying - Low humidity
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Humidifying - Low humidity
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 60% - Normal cooling
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds CLOSED - Too bright outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Humidifying - Low humidity
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): Humidifying - Low humidity
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds CLOSED - Too bright outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 60% - Normal cooling
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Humidifying - Low humidity
+[DPCP] Device 5 (Auto Blinds): Blinds CLOSED - Too bright outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds CLOSED - Too bright outside
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds CLOSED - Too bright outside
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 60% - Normal cooling
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): Humidifying - Low humidity
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): Humidifying - Low humidity
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 60% - Normal cooling
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Humidifying - Low humidity
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds CLOSED - Too bright outside
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): Humidifying - Low humidity
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds CLOSED - Too bright outside
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Humidifying - Low humidity
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 60% - Normal cooling
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Humidifying - Low humidity
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): Humidifying - Low humidity
+[DPCP] Device 5 (Auto Blinds): Blinds OPEN - Dark outside
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): Humidifying - Low humidity
+[DPCP] Device 5 (Auto Blinds): Blinds CLOSED - Too bright outside
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): OFF - No smoke detected
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+[DPCP] Device 0 (Air Conditioner): Cooling at 100% - HIGH TEMP ALERT!
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights ON at 100% - Motion detected
+[DPCP] Device 3 (Door Lock System): UNLOCKED - Access granted
+[DPCP] Device 4 (Dehumidifier): OFF - Humidity normal
+[DPCP] Device 5 (Auto Blinds): Blinds CLOSED - Too bright outside
+[DPCP] Device 0 (Air Conditioner): OFF - Temperature normal
+[DPCP] Device 1 (Fire Alarm): TRIGGERED - FIRE DETECTED! EVACUATE!
+[DPCP] Device 2 (Smart Lights): Lights OFF - No motion
+[DPCP] Device 3 (Door Lock System): LOCKED - INVALID ID - ACCESS DENIED!
+[DPCP] Device 4 (Dehumidifier): Dehumidifying at 100% - High humidity alert
+[DPCP] Device 5 (Auto Blinds): Blinds PARTIAL - Normal light
+
+[DPCP] Shutting down...
